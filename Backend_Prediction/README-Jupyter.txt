@@ -19,7 +19,7 @@ Run:
 	(on Windows: activate py27)
 
 Download/Clone the Project content from:
-	https://github.com/
+	https://github.com/rafael2rejtman/spot.git
 
 Install The Following Conda/Pip Packages:
 	conda install tensorflow keras html5lib py-xgboost

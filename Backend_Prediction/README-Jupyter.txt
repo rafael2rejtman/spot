@@ -5,19 +5,16 @@ Install instructions for Mac OSX / Linux (also works for Windows)
 Install Anaconda with Python 3.X
 	https://www.anaconda.com/download/
 
-Extra Windows Instructions	For Windows, when you install Anaconda, choose to also install Anaconda Prompt.
+Extra Windows Instructions
+	For Windows, when you install Anaconda, choose to also install Anaconda Prompt.
 
-Create Virtual Environment with Python 2.7• Open Terminal
+Create Virtual Environment with Python 2.7
+• Open Terminal
 • Run the command:
 	conda create -n py27 python=2.7 anaconda
-To activate Virtual environment:
-  	source activate data-x
-	on Windows: activate data-x
-To deactivate Virtual environment:
-	source deactivate
-	on Windows: deactivate
 
-Before installing packages or running a notebook Always Activate the Virtual Environment first! (This way you will never run into problem with crashing your root Python / Anaconda installation) Run:
+Before installing packages or running a notebook Always Activate the Virtual Environment first!
+Run:
       	source activate py27
 	(on Windows: activate py27)
 
@@ -26,11 +23,8 @@ Download/Clone the Project content from:
 
 Install The Following Conda/Pip Packages:
 	conda install tensorflow keras html5lib py-xgboost
-	pip install pickle
 	pip install pydot pydotplus graphviz
-	pip install seaborn
 	
-
 Run the Spot Kernel Notebook:
 In order to run the Jupyter notebook
 	open the terminal
